@@ -42,6 +42,7 @@ button.red{background:#ef4444}
 <button onclick="add('+')" class="orange">+</button>
 <br>
 <button onclick="calc()" class="green" style="width:92%">=</button>
+<button onclick="sayHi()" style="width:92%">Say Hi</button>
 </div>
 
 <br>
@@ -50,6 +51,9 @@ button.red{background:#ef4444}
 <script>
 function add(v){document.getElementById('display').value += v}
 function clearAll(){document.getElementById('display').value = ''}
+  function sayHi(){
+   document.getElementById('display').value = 'Hi Abdulmalik!'
+  }
 function calc(){
 try{
 let result = eval(document.getElementById('display').value)
