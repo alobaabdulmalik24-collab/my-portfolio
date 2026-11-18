@@ -1,29 +1,41 @@
 !DOCTYPE html>
 <html>
 <head>
-<title>Aloba Abdulmalik | Portfolio</title>
+<title>Aloba Abdulmalik | Developer</title>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <style>
-body{font-family:Arial;background:#0f172a;color:white;text-align:center;padding:20px}
-.card{background:white;color:black;padding:20px;border-radius:15px;max-width:500px;margin:auto}
-a{background:#2563eb;color:white;padding:10px 20px;border-radius:10px;text-decoration:none;display:inline-block;margin:5px}
-img{width:150px;height:150px;border-radius:50%;object-fit:cover}
+body{background:#0a0a0a;color:white;font-family:Arial;text-align:center;padding:20px;margin:0}
+h1{color:#00ff88;font-size:28px}
+h2{color:#00ff88;margin-top:30px}
+.profile-pic{width:140px;height:140px;border-radius:50%;border:3px solid #00ff88;object-fit:cover}
+.skill{background:#1f2937;padding:12px;margin:8px;border-radius:10px}
+.project{background:#111827;padding:15px;margin:10px;border-radius:10px;border:1px solid #00ff88}
+.btn{background:#00ff88;color:black;padding:12px 25px;border-radius:25px;text-decoration:none;font-weight:bold;display:inline-block;margin:10px}
+.btn2{background:white;color:black;padding:12px 25px;border-radius:25px;text-decoration:none;font-weight:bold;display:inline-block;margin:10px}
 </style>
 </head>
 <body>
-<div class="card">
-<h1>Aloba Abdulmalik</h1>
-<p><b>Web Developer | Ibafo, Ogun State</b></p>
-<p>I build beautiful and responsive websites with HTML & CSS.</p>
-<h3>My Skills</h3>
-<p>HTML • CSS • GitHub</p>
-<h3>My Projects</h3>
-<p>✅ My Portfolio Website</p>
-<p>✅ Coming Soon: Calculator App</p>
-<br>
-<a href="https://github.com/alobaabdulmalik24-collab">My GitHub</a>
-<a href="https://wa.me/2340000000000">WhatsApp Me</a>
-</div>
-<p>© 2026 Aloba Abdulmalik</p>
+
+<img src="https://via.placeholder.com/150" class="profile-pic">
+<h1>Hi, I'm Aloba Abdulmalik 👋</h1>
+<p>I'm 15. I build websites, I do cybersecurity and AI using Python.<br>Developer from Arepo, Ogun State.</p>
+
+<h2>My Skills</h2>
+<div class="skill">🐍 Python</div>
+<div class="skill">🌐 HTML & CSS</div>
+<div class="skill">💻 Websites</div>
+<div class="skill">🛡️ Cybersecurity</div>
+<div class="skill">🤖 AI</div>
+
+<h2>My Projects</h2>
+<div class="project">1. My First Website - Done ✅</div>
+<div class="project">2. Calculator App - Coming Soon...</div>
+
+<h2>Contact Me</h2>
+<p>Let's build something great together!</p>
+<a class="btn" href="https://wa.me/2340000000000">Chat on WhatsApp</a><br>
+<a class="btn2" href="https://github.com/alobaabdulmalik24-collab">My GitHub</a>
+
+<p style="margin-top:30px;color:#888">© 2026 Aloba Abdulmalik</p>
 </body>
 </html>
