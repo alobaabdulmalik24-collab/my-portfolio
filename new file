@@ -1,0 +1,29 @@
+!DOCTYPE html>
+<html>
+<head>
+<title>Aloba Abdulmalik | Portfolio</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body{font-family:Arial;background:#0f172a;color:white;text-align:center;padding:20px}
+.card{background:white;color:black;padding:20px;border-radius:15px;max-width:500px;margin:auto}
+a{background:#2563eb;color:white;padding:10px 20px;border-radius:10px;text-decoration:none;display:inline-block;margin:5px}
+img{width:150px;height:150px;border-radius:50%;object-fit:cover}
+</style>
+</head>
+<body>
+<div class="card">
+<h1>Aloba Abdulmalik</h1>
+<p><b>Web Developer | Ibafo, Ogun State</b></p>
+<p>I build beautiful and responsive websites with HTML & CSS.</p>
+<h3>My Skills</h3>
+<p>HTML • CSS • GitHub</p>
+<h3>My Projects</h3>
+<p>✅ My Portfolio Website</p>
+<p>✅ Coming Soon: Calculator App</p>
+<br>
+<a href="https://github.com/alobaabdulmalik24-collab">My GitHub</a>
+<a href="https://wa.me/2340000000000">WhatsApp Me</a>
+</div>
+<p>© 2026 Aloba Abdulmalik</p>
+</body>
+</html>
