@@ -19,8 +19,12 @@ button{font-size:30px; padding:15px; margin:10px; border-radius:15px; border:non
 <button onclick="play('Scissors')">✌️ Scissors</button>
 
 <p id="result">Choose one to play!</p>
-
+<p id="score" style="font-size:25px; color:#00ff88;">You: 0 - Computer: 0</p>
+  
 <script>
+  let playerScore = 0;
+let computerScore = 0;
+  
 function play(player){
   let choices = ['Rock','Paper','Scissors'];
   let computer = choices[Math.floor(Math.random()*3)];
@@ -34,8 +38,10 @@ function play(player){
     (player === 'Scissors' && computer === 'Paper')
   ){
     winner = "You Win! 🎉";
+    playerscore++;
   } else {
     winner = "Computer Win! 😭";
+    computerscore++;
   }
 
   document.getElementById('result').innerHTML = 
