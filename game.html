@@ -1,16 +1,15 @@
-<!DOCTYPE html>
+!DOCTYPE html>
 <html>
 <head>
 <title>Rock Paper Scissors</title>
 <style>
-body{background:black; color:white; text-align:center; font-family:sans-serif}
-h1{color:#00ff88}
-button{font-size:30px; padding:15px; margin:10px; border-radius:15px; border:none}
-#result{font-size:25px; margin-top:20px}
+body{ background:black; color:white; text-align:center; font-family:Arial; }
+h1{ color:#00ff88; }
+button{ font-size:20px; padding:10px; margin:5px; }
+#score{ font-size:25px; color:#00ff88; }
 </style>
 </head>
 <body>
-
 <h1>Rock Paper Scissors ✊✋✌️</h1>
 <p>By Abdulmalik</p>
 
@@ -19,16 +18,15 @@ button{font-size:30px; padding:15px; margin:10px; border-radius:15px; border:non
 <button onclick="play('Scissors')">✌️ Scissors</button>
 
 <p id="result">Choose one to play!</p>
-<p id="score" style="font-size:25px; color:#00ff88;">You: 0 - Computer: 0</p>
-  
+<p id="score">You: 0 - Computer: 0</p>
+
 <script>
-  let playerScore = 0;
+let playerScore = 0;
 let computerScore = 0;
-  
+
 function play(player){
   let choices = ['Rock','Paper','Scissors'];
   let computer = choices[Math.floor(Math.random()*3)];
-
   let winner = "";
   if(player === computer){
     winner = "Na Draw! 🤝";
@@ -43,11 +41,9 @@ function play(player){
     winner = "Computer Win! 😭";
     computerScore++;
   }
-
   document.getElementById('result').innerHTML = "You: " + player + "<br>Computer: " + computer + "<br>" + winner;
-  document.getElementById('score').innerHTML
+  document.getElementById('score').innerHTML = "You: " + playerScore + " - Computer: " + computerScore;
 }
 </script>
-
 </body>
 </html>
